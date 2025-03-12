@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameHub - God of War</title>
+    <title>GameHub - GOD OF WAR </title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -36,17 +36,17 @@
             padding: 100px 20px;
             background: rgba(0, 0, 0, 0.6);
         }
-        .games {
+        .intro-video {
+            margin-top: 20px;
+        }
+        .story-section {
             background: rgba(0, 0, 0, 0.8);
             padding: 50px 20px;
+            text-align: left;
         }
-        .game-list {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        .game-card {
+        .story-card {
             background: rgba(255, 0, 0, 0.7);
+            margin: 20px 0;
             padding: 20px;
             border-radius: 10px;
             font-weight: bold;
@@ -64,7 +64,7 @@
             <ul>
                 <li><a href="#home">Início</a></li>
                 <li><a href="#games">Jogos</a></li>
-                <li><a href="#about">Sobre</a></li>
+                <li><a href="#history">História</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
@@ -72,15 +72,31 @@
     
     <section id="home" class="banner">
         <h2>Bem-vindo ao GameHub</h2>
-        <p>Seu portal para os melhores jogos online!</p>
+        <p>Seu portal de GOD OF WAR!</p>
+        <div class="intro-video">
+            <video width="80%" controls>
+                <source src="God of War - Leviathan Axe and Guardian Shield Gameplay.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeos.
+            </video>
+        </div>
     </section>
     
     <section id="games" class="games">
         <h2>Jogos Populares</h2>
         <div class="game-list">
-            <div class="game-card">God of War</div>
-            <div class="game-card">Jogo 2</div>
-            <div class="game-card">Jogo 3</div>
+            <div class="game-card">GOD OF WAR 2018</div>
+            <div class="game-card">GOD OF WAR RAGNAROK</div>
+            <div class="game-card">GOD OF WAR</div>
+        </div>
+    </section>
+    
+    <section id="history" class="story-section">
+        <h2>História de God of War</h2>
+        <div class="story-card">
+            <p>Kratos, o Fantasma de Esparta, enfrenta deuses e monstros em sua busca por redenção e vingança. Com batalhas épicas e narrativas emocionantes, God of War redefine o mito grego e nórdico.</p>
+        </div>
+        <div class="story-card">
+            <p>Descubra os desafios de Kratos e Atreus em sua jornada pelos nove reinos, lutando contra criaturas míticas e revelando segredos antigos.</p>
         </div>
     </section>
     
@@ -89,3 +105,5 @@
     </footer>
 </body>
 </html>
+
+ 
